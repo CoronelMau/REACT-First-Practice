@@ -1,0 +1,20 @@
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 0;
+  background-color: #6278F7;
+  box-sizing: border-box;
+  color: white;
+  padding: 4.75%;
+}
+
+.footer .red {
+  width: 50px;
+  padding-left: 10px;
+}
+
+.logo {
+  width: 80px;
+}
