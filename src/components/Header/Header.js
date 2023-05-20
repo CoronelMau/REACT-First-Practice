@@ -2,7 +2,7 @@ import "./Header.css"
 
 function Header() {
   return <header className="header">
-    <img src="/img/Header.png" alt="Header" />
+    <img src={require('../../img/Header.png')} alt="Header" />
   </header>
 }
 
