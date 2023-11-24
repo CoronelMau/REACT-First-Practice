@@ -11,7 +11,7 @@ const Formulario = (props) => {
   const [foto, actualizarFoto] = useState("");
   const [equipo, actualizarEquipo] = useState("");
 
-  const [titulo, actualizarTitulo] = useState("");
+  const [titulo, actualizarTitulo] = useState(""); 
   const [color, actualizarColor] = useState("");
 
   const { registrarColaborador, crearEquipo } = props
@@ -96,7 +96,7 @@ const Formulario = (props) => {
       <Boton>
         Registrar equipo
       </Boton>
-    </form>
+    </form> 
   </section>
 }
 

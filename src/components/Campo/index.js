@@ -6,11 +6,11 @@ const Campo = (props) => {
 
   const { type = "text" } = props;
 
-  // console.log(type);
+  // console.log(type); 
 
   const manejarCambio = (e) => {
 
-    props.actualizarValor(e.target.value);
+    props.actualizarValor(e.target.value); 
   }
 
   return <div className={`campo campo-${type}`}>

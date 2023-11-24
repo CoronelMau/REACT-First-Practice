@@ -1,9 +1,11 @@
-import "./Header.css"
+import './Header.css';
 
 function Header() {
-  return <header className="header">
-    <img src={require('../../img/Header.png')} alt="Header" />
-  </header>
+  return (
+    <header className="header">
+      <img src="../../img/Header.png" alt="Header" />
+    </header>
+  );
 }
 
 export default Header;
